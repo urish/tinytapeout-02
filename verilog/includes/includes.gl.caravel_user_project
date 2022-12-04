@@ -144,4 +144,5 @@
 -v $(USER_PROJECT_VERILOG)/gl/user_module_341438392303616596.v
 -v $(USER_PROJECT_VERILOG)/gl/user_module_349952820323025491.v
 -v $(USER_PROJECT_VERILOG)/gl/femto_top.v
+-v $(USER_PROJECT_VERILOG)/gl/skullart.v
 -v $(USER_PROJECT_VERILOG)/gl/logisim_demo.v

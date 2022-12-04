@@ -5587,9 +5587,7 @@ module user_project_wrapper #(
         .module_data_out (sw_248_module_data_out)
     );
 
-    user_module_341535056611770964 user_module_341535056611770964_248 (
-        .io_in  (sw_248_module_data_in),
-        .io_out (sw_248_module_data_out)
+    skullart skullart_248 (
     );
 
     // [249] https://github.com/TinyTapeout/tt02-test-invert

@@ -145,4 +145,5 @@
 -v $(USER_PROJECT_VERILOG)/rtl/user_module_341438392303616596.v
 -v $(USER_PROJECT_VERILOG)/rtl/user_module_349952820323025491.v
 -v $(USER_PROJECT_VERILOG)/rtl/142_Femto-top.v
+-v $(USER_PROJECT_VERILOG)/rtl/skullart.v
 -v $(USER_PROJECT_VERILOG)/rtl/143_logisimTopLevelShell.v

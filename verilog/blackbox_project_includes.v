@@ -143,4 +143,5 @@
 `include "gl/user_module_341438392303616596.v"
 `include "gl/user_module_349952820323025491.v"
 `include "gl/femto_top.v"
+`include "gl/skullart.v"
 `include "gl/logisim_demo.v"

@@ -144,6 +144,7 @@ $script_dir/../../lef/user_module_341557831870186068.lef \
 $script_dir/../../lef/user_module_341438392303616596.lef \
 $script_dir/../../lef/user_module_349952820323025491.lef \
 $script_dir/../../lef/femto_top.lef \
+$script_dir/../../lef/skullart.lef \
 $script_dir/../../lef/logisim_demo.lef"
 set ::env(EXTRA_GDS_FILES) "\
 $script_dir/../../gds/scan_controller.gds \
@@ -291,4 +292,5 @@ $script_dir/../../gds/user_module_341557831870186068.gds \
 $script_dir/../../gds/user_module_341438392303616596.gds \
 $script_dir/../../gds/user_module_349952820323025491.gds \
 $script_dir/../../gds/femto_top.gds \
+$script_dir/../../gds/skullart.gds \
 $script_dir/../../gds/logisim_demo.gds"

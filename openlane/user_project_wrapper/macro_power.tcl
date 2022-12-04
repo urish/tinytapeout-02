@@ -497,6 +497,6 @@ set ::env(FP_PDN_MACRO_HOOKS) "\
 	scanchain_247 vccd1 vssd1 vccd1 vssd1, \
 	user_module_341535056611770964_247 vccd1 vssd1 vccd1 vssd1, \
 	scanchain_248 vccd1 vssd1 vccd1 vssd1, \
-	user_module_341535056611770964_248 vccd1 vssd1 vccd1 vssd1, \
+	skullart_248 vccd1 vssd1 vccd1 vssd1, \
 	scanchain_249 vccd1 vssd1 vccd1 vssd1, \
 	user_module_341535056611770964_249 vccd1 vssd1 vccd1 vssd1"

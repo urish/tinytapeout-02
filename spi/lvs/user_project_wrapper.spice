@@ -140,6 +140,10 @@
 + io_out[6] io_out[7] vccd1 vssd1
 .ends
 
+* Black-box entry subcircuit for skullart abstract view
+.subckt skullart vssd1 vccd1
+.ends
+
 * Black-box entry subcircuit for meriac_tt02_play_tune abstract view
 .subckt meriac_tt02_play_tune io_in[0] io_in[1] io_in[2] io_in[3] io_in[4] io_in[5]
 + io_in[6] io_in[7] io_out[0] io_out[1] io_out[2] io_out[3] io_out[4] io_out[5] io_out[6]
@@ -1410,6 +1414,7 @@ Xscanchain_186 scanchain_186/clk_in scanchain_187/clk_in scanchain_186/data_in s
 + scanchain_186/module_data_out[2] scanchain_186/module_data_out[3] scanchain_186/module_data_out[4]
 + scanchain_186/module_data_out[5] scanchain_186/module_data_out[6] scanchain_186/module_data_out[7]
 + scanchain_186/scan_select_in scanchain_187/scan_select_in vccd1 vssd1 scanchain
+Xskullart_248 vssd1 vccd1 skullart
 Xuser_module_341535056611770964_147 scanchain_147/module_data_in[0] scanchain_147/module_data_in[1]
 + scanchain_147/module_data_in[2] scanchain_147/module_data_in[3] scanchain_147/module_data_in[4]
 + scanchain_147/module_data_in[5] scanchain_147/module_data_in[6] scanchain_147/module_data_in[7]
@@ -2802,12 +2807,6 @@ Xuser_module_341535056611770964_237 scanchain_237/module_data_in[0] scanchain_23
 + scanchain_237/module_data_out[0] scanchain_237/module_data_out[1] scanchain_237/module_data_out[2]
 + scanchain_237/module_data_out[3] scanchain_237/module_data_out[4] scanchain_237/module_data_out[5]
 + scanchain_237/module_data_out[6] scanchain_237/module_data_out[7] vccd1 vssd1 user_module_341535056611770964
-Xuser_module_341535056611770964_248 scanchain_248/module_data_in[0] scanchain_248/module_data_in[1]
-+ scanchain_248/module_data_in[2] scanchain_248/module_data_in[3] scanchain_248/module_data_in[4]
-+ scanchain_248/module_data_in[5] scanchain_248/module_data_in[6] scanchain_248/module_data_in[7]
-+ scanchain_248/module_data_out[0] scanchain_248/module_data_out[1] scanchain_248/module_data_out[2]
-+ scanchain_248/module_data_out[3] scanchain_248/module_data_out[4] scanchain_248/module_data_out[5]
-+ scanchain_248/module_data_out[6] scanchain_248/module_data_out[7] vccd1 vssd1 user_module_341535056611770964
 Xuser_module_341535056611770964_226 scanchain_226/module_data_in[0] scanchain_226/module_data_in[1]
 + scanchain_226/module_data_in[2] scanchain_226/module_data_in[3] scanchain_226/module_data_in[4]
 + scanchain_226/module_data_in[5] scanchain_226/module_data_in[6] scanchain_226/module_data_in[7]
